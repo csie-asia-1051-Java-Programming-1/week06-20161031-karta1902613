@@ -5,14 +5,19 @@
  @@@
  @@@
  * Date: 2016/10/31
- * Author: 1050210XX 周永振老師
+ * Author: 105021043 劉凱文
  */
-
+import java.util.Scanner;
 public class ex01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-	}
-
-}
+		 Scanner scn=new Scanner(System.in);
+		 fun1(scn.nextInt());}
+public static void fun1(int n){
+	 Scanner scn=new Scanner(System.in); 
+	 char c=scn.next().charAt(0);
+	   for(int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			System.out.print(c);}
+		    System.out.println();}}}

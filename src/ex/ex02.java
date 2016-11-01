@@ -13,10 +13,10 @@ public class ex02 {
 		 int m =scn.nextInt();
 	     int n =scn.nextInt();
 	     int x=0;
-	       fun1(m,n);
-	 System.out.println(fun1(m,n));}
+	       C(m,n);
+	 System.out.println(C(m,n));}
 
-	public static int fun1(int m, int n){
+	public static int C(int m, int n){
 				int summ =1;	
 				int sumn =1;
 				int summn=1;
